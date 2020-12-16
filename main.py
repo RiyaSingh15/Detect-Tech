@@ -135,8 +135,8 @@ class Detect:
         genderModel = "gender_net.caffemodel"
 
         MODEL_MEAN_VALUES = (78.4263377603, 87.7689143744, 114.895847746)
-        ageList = ['(0-2)', '(4-6)', '(8-12)', '(15-20)',
-                   '(25-32)', '(38-43)', '(48-53)', '(60-100)']
+        ageList = ['(0-3)', '(4-6)', '(7-13)', '(14-22)',
+                   '(23-34)', '(35-45)', '(46-56)', '(57-100)']
         genderList = ['Male', 'Female']
 
         faceNet = cv2.dnn.readNet(faceModel, faceProto)
